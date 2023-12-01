@@ -30,7 +30,7 @@ jobs:
         uses: docker/metadata-action@v3.6.2
         with:
           images: ksinica/hugo
-          flavor: suffix=-alpine-3.18.3
+          flavor: suffix=-alpine-3.18
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v2.10.0

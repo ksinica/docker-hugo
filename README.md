@@ -1,2 +1,2 @@
 # docker-hugo
-Docker image for Guho static site generator.
+Docker image for Hugo static site generator.
